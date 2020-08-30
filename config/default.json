@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://esswhye:requirepass123@arvent-db.v8yp0.mongodb.net/arvent-db?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
