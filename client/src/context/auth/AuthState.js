@@ -61,7 +61,7 @@ const AuthState = (props) => {
         type: REGISTER_SUCCESS,
         payload: res.data,
       });
-      //get token and store into localStorage
+      //store into localStorage and fetch user data
       loadUser();
     } catch (err) {
       dispatch({
